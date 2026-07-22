@@ -150,6 +150,6 @@ Participating in the event on **June 13, 2026** was a valuable experience that g
 
 #### Photos from the Event
 
-![Event1306](images/event1306.png)
+![Event1306](/link_fcj-workshop-template/images/event1306.png)
 
 > Overall, the event on June 13, 2026, provided not only valuable technical knowledge but also a better understanding of the real-world IT working environment, career development, and the skills required for the future. In particular, the topics of **DevOps, Cloud, and Scalable System Design on AWS** can be directly applied to my **Online Bus Booking System** project. This experience has given me clearer direction for developing my career in **Backend Development and Cloud Computing**.

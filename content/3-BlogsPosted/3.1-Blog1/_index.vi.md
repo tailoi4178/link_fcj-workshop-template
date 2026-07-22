@@ -44,7 +44,7 @@ Kiến trúc này được thiết kế theo hướng tách biệt từng thành
 
 **Hình 1. Kiến trúc triển khai Eclipse Dataspace Components trên AWS**
 
-![Kiến trúc triển khai Eclipse Dataspace Components trên AWS](/images/edc-architecture.png)
+![Kiến trúc triển khai Eclipse Dataspace Components trên AWS](/link_fcj-workshop-template/images/edc-architecture.png)
 
 *Hình 1. Kiến trúc tham chiếu triển khai Eclipse Dataspace Components (EDC) trên AWS.*
 

@@ -81,7 +81,7 @@ In my opinion, this is an important improvement because it enables AI agents to 
 
 **Figure 1. The Three Knowledge Layers of Amazon Bedrock AgentCore**
 
-![The Three Knowledge Layers of Amazon Bedrock AgentCore](/images/agentcore-knowledge-layers.png)
+![The Three Knowledge Layers of Amazon Bedrock AgentCore](/link_fcj-workshop-template/images/agentcore-knowledge-layers.png)
 
 *Figure 1. AgentCore expands AI capabilities through three knowledge layers: enterprise knowledge, web knowledge, and premium knowledge sources.*
 
@@ -99,7 +99,7 @@ From my perspective, this data-driven approach makes AI agent optimization much 
 
 **Figure 2. The Continuous Improvement Workflow in AgentCore**
 
-![AgentCore Continuous Improvement Workflow](/images/agentcore-optimization-loop.png)
+![AgentCore Continuous Improvement Workflow](/link_fcj-workshop-template/images/agentcore-optimization-loop.png)
 
 *Figure 2. AgentCore analyzes production data, recommends improvements, and evaluates changes before deployment.*
 

@@ -82,7 +82,7 @@ Theo mình, đây là một điểm khá mới vì nó mở ra khả năng xây 
 
 **Hình 1. Ba lớp kiến thức của Amazon Bedrock AgentCore**
 
-![Ba lớp kiến thức của Amazon Bedrock AgentCore](/images/agentcore-knowledge-layers.png)
+![Ba lớp kiến thức của Amazon Bedrock AgentCore](/link_fcj-workshop-template/images/agentcore-knowledge-layers.png)
 
 *Hình 1. AgentCore mở rộng khả năng của AI Agent thông qua ba lớp kiến thức gồm dữ liệu nội bộ, dữ liệu trên Internet và các nguồn dữ liệu trả phí.*
 
@@ -100,7 +100,7 @@ Theo mình, cách tiếp cận này giúp việc tối ưu AI Agent trở nên c
 
 **Hình 2. Quy trình cải thiện AI Agent trên AgentCore**
 
-![Quy trình cải thiện AI Agent trên AgentCore](/images/agentcore-optimization-loop.png)
+![Quy trình cải thiện AI Agent trên AgentCore](/link_fcj-workshop-template/images/agentcore-optimization-loop.png)
 
 *Hình 2. AgentCore hỗ trợ phân tích dữ liệu vận hành, đưa ra đề xuất cải thiện và đánh giá kết quả trước khi triển khai.*
 

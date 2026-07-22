@@ -44,7 +44,7 @@ This architecture separates each component into dedicated services, making the s
 
 **Figure 1. Eclipse Dataspace Components Reference Architecture on AWS**
 
-![Eclipse Dataspace Components Architecture on AWS](/images/edc-architecture.png)
+![Eclipse Dataspace Components Architecture on AWS](/link_fcj-workshop-template/images/edc-architecture.png)
 
 *Figure 1. Reference architecture for deploying Eclipse Dataspace Components (EDC) on AWS.*
 

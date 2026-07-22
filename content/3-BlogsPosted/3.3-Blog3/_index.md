@@ -48,7 +48,7 @@ In addition, the Lucene search engine behaves identically across both storage ti
 
 **Figure 1. Comparing UltraWarm and Writable Warm Data Flow**
 
-![Comparison between UltraWarm and Writable Warm](/images/writable-warm-storage.png)
+![Comparison between UltraWarm and Writable Warm](/link_fcj-workshop-template/images/writable-warm-storage.png)
 
 *Figure 1. Writable Warm Storage allows data to be written directly into the Warm tier, eliminating the traditional Hot → Warm → Hot migration process and simplifying storage operations.*
 ---

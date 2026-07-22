@@ -48,7 +48,7 @@ Bên cạnh đó, công cụ tìm kiếm Lucene hoạt động giống nhau trê
 
 **Hình 1. So sánh luồng dữ liệu giữa UltraWarm và Writable Warm**
 
-![So sánh UltraWarm và Writable Warm](/images/writable-warm-storage.png)
+![So sánh UltraWarm và Writable Warm](/link_fcj-workshop-template/images/writable-warm-storage.png)
 
 *Hình 1. Writable Warm Storage cho phép ghi trực tiếp vào tầng Warm, loại bỏ quy trình chuyển chỉ mục giữa Hot và Warm, giúp giảm thời gian cập nhật dữ liệu và đơn giản hóa quá trình vận hành.*
 ---

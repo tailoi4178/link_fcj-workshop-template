@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 04/05/2026 đến ngày 31/07/2026
 
-![Ảnh đại diện của bạn](/images/Loi.png)
+![Your Avatar](/link_fcj-workshop-template/images/Loi.png)
 
 
 
