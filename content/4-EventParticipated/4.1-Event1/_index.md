@@ -81,7 +81,7 @@ The session about avoiding **Procrastination** helped me understand that effecti
 
 #### Photos from the Event
 
-![Event3005](/images/event3005.png)
-![Event3005](/images/event30052.png)
+![Event3005](images/event3005.png)
+![Event3005](images/event30052.png)
 
 > Overall, the event on May 30, 2026, provided me with valuable knowledge about **AWS**, the importance of **English and Teamwork**, and useful methods for improving **Time Management** and reducing **Procrastination**. The event also motivated me to participate more actively in technology communities, Hackathons, and practical projects to improve my technical and professional skills.
