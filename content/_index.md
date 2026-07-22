@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From May 04, 2026 to July 31, 2026
 
-![Your Avatar](images/Loi.png)
+![Your Avatar](/images/Loi.png)
 
 
 
