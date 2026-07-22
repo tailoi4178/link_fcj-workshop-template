@@ -1,59 +1,70 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2026-06-01
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+# Tuần 5 - Amazon Lightsail và EC2 Auto Scaling
 
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu mục đích và các trường hợp sử dụng của Amazon Lightsail.
+* Học cách Amazon Lightsail đơn giản hóa việc triển khai hạ tầng Cloud.
+* Tìm hiểu khái niệm Scalability và khả năng mở rộng của ứng dụng.
+* Tìm hiểu cách EC2 Auto Scaling tự động điều chỉnh năng lực tính toán.
+* Tìm hiểu Launch Template, Auto Scaling Group và Scaling Policy.
+* Thực hành cấu hình môi trường Auto Scaling.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+---
 
+### Công việc thực hiện trong tuần:
 
-### Kết quả đạt được tuần 5:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Tìm hiểu kiến thức cơ bản về Amazon Lightsail <br> - Tìm hiểu Lightsail Instance, Networking, Storage và Database <br> - So sánh Amazon Lightsail với Amazon EC2 | 01/06/2026 | 01/06/2026 | <https://docs.aws.amazon.com/lightsail/> |
+| 2 | - **Thực hành:** <br>&emsp; + Tạo Amazon Lightsail Instance <br>&emsp; + Cấu hình Networking <br>&emsp; + Kết nối đến Instance <br>&emsp; + Kiểm tra mức sử dụng tài nguyên và chi phí | 02/06/2026 | 02/06/2026 | <https://aws.amazon.com/lightsail/> |
+| 3 | - Tìm hiểu kiến thức cơ bản về EC2 Auto Scaling <br> - Tìm hiểu Launch Template <br> - Tìm hiểu Auto Scaling Group và Desired Capacity | 03/06/2026 | 03/06/2026 | <https://docs.aws.amazon.com/autoscaling/ec2/> |
+| 4 | - Tìm hiểu Auto Scaling Policy <br> - Tìm hiểu Target Tracking và Scaling Policy <br> - Tìm hiểu cách Auto Scaling kết hợp với Elastic Load Balancing | 04/06/2026 | 04/06/2026 | <https://docs.aws.amazon.com/autoscaling/ec2/userguide/> |
+| 5 | - **Thực hành:** <br>&emsp; + Tạo Launch Template <br>&emsp; + Tạo Auto Scaling Group <br>&emsp; + Cấu hình Minimum và Maximum Capacity <br>&emsp; + Kiểm tra khả năng Scaling <br>&emsp; + Kiểm tra và dọn dẹp tài nguyên AWS | 05/06/2026 | 05/06/2026 | <https://aws.amazon.com/ec2/autoscaling/> |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
+---
+
+### Kết quả đạt được trong tuần 5:
+
+* Hiểu được mục đích và kiến trúc cơ bản của Amazon Lightsail.
+
+* Tìm hiểu các thành phần chính của Lightsail:
+  * Instance
+  * Networking
   * Storage
-  * Networking 
   * Database
-  * ...
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* So sánh Amazon Lightsail và Amazon EC2 dựa trên:
+  * Mức độ dễ sử dụng
+  * Độ phức tạp khi cấu hình
+  * Mô hình chi phí
+  * Tính linh hoạt
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Tạo và cấu hình thành công Amazon Lightsail Instance.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Hiểu khái niệm Scalability và tầm quan trọng của việc tự động điều chỉnh tài nguyên theo nhu cầu sử dụng.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Tìm hiểu các thành phần chính của EC2 Auto Scaling:
+  * Launch Template
+  * Auto Scaling Group
+  * Desired Capacity
+  * Minimum Capacity
+  * Maximum Capacity
+  * Scaling Policy
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Hiểu cách Auto Scaling tự động thêm hoặc loại bỏ EC2 Instance dựa trên nhu cầu sử dụng.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Thực hành tạo Auto Scaling Group và cấu hình các thông số Scaling.
 
+* Kiểm tra hoạt động Scaling của tài nguyên EC2.
 
+* Cải thiện kiến thức về High Availability, Scalability và tối ưu tài nguyên trên AWS.
+
+* Hiểu được tầm quan trọng của việc theo dõi mức sử dụng tài nguyên và dọn dẹp các tài nguyên không sử dụng để kiểm soát chi phí AWS.

@@ -1,59 +1,63 @@
 ---
 title: "Worklog Tuần 7"
-date: 2024-01-01
-weight: 1
+date: 2026-06-15
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+# Tuần 7 - AWS IAM, Systems Manager và Infrastructure as Code
 
 ### Mục tiêu tuần 7:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu AWS Identity and Access Management (IAM).
+* Học nguyên tắc Principle of Least Privilege.
+* Tìm hiểu IAM User, Group, Role và Policy.
+* Hiểu cách ứng dụng sử dụng IAM Role để truy cập các dịch vụ AWS.
+* Tìm hiểu AWS Systems Manager để quản lý tài nguyên Cloud.
+* Tìm hiểu Infrastructure as Code với AWS CloudFormation.
+* Thực hành triển khai tài nguyên AWS bằng CloudFormation Template.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+---
 
+### Công việc thực hiện trong tuần:
 
-### Kết quả đạt được tuần 7:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Tìm hiểu kiến thức cơ bản về AWS IAM <br> - Tìm hiểu User, Group, Role và Policy <br> - Tìm hiểu nguyên tắc Principle of Least Privilege | 15/06/2026 | 15/06/2026 | <https://docs.aws.amazon.com/iam/> |
+| 2 | - Thực hành tạo IAM User và Group <br> - Cấu hình IAM Policy <br> - Tìm hiểu cách sử dụng IAM Role <br> - Kiểm tra quyền và kiểm soát truy cập | 16/06/2026 | 16/06/2026 | <https://docs.aws.amazon.com/IAM/latest/UserGuide/> |
+| 3 | - Tìm hiểu AWS Systems Manager <br> - Khám phá Session Manager <br> - Tìm hiểu cách quản lý EC2 mà không cần truy cập trực tiếp bằng SSH | 17/06/2026 | 17/06/2026 | <https://docs.aws.amazon.com/systems-manager/> |
+| 4 | - Tìm hiểu khái niệm Infrastructure as Code (IaC) <br> - Tìm hiểu CloudFormation Template <br> - Tìm hiểu Stack và Resource | 18/06/2026 | 18/06/2026 | <https://docs.aws.amazon.com/cloudformation/> |
+| 5 | - **Thực hành:** <br>&emsp; + Tạo CloudFormation Template <br>&emsp; + Triển khai tài nguyên AWS bằng Stack <br>&emsp; + Cập nhật Stack <br>&emsp; + Xóa Stack <br> - Kiểm tra IAM Permission và dọn dẹp tài nguyên | 19/06/2026 | 19/06/2026 | <https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/> |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+---
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Kết quả đạt được trong tuần 7:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hiểu kiến thức cơ bản về AWS Identity and Access Management.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Tìm hiểu các thành phần chính của IAM:
+  * User
+  * Group
+  * Role
+  * Policy
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Hiểu nguyên tắc Principle of Least Privilege và tầm quan trọng của nguyên tắc này trong bảo mật Cloud.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Thực hành tạo IAM User, Group và Policy.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hiểu cách IAM Role cung cấp quyền truy cập tạm thời cho các dịch vụ và ứng dụng AWS.
 
+* Tìm hiểu AWS Systems Manager và Session Manager.
 
+* Hiểu cách sử dụng Session Manager để quản lý EC2 mà không cần phụ thuộc hoàn toàn vào kết nối SSH truyền thống.
+
+* Hiểu khái niệm Infrastructure as Code.
+
+* Tìm hiểu cấu trúc cơ bản của CloudFormation Template.
+
+* Thực hành thành công việc tạo và triển khai CloudFormation Stack.
+
+* Thực hành cập nhật và xóa các tài nguyên được quản lý bởi CloudFormation.
+
+* Cải thiện kiến thức về bảo mật AWS, quản lý quyền truy cập, tự động hóa hạ tầng và quản lý tài nguyên.

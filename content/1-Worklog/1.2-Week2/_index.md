@@ -1,57 +1,67 @@
 ---
 title: "Week 2 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-11
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+# Week 2 - AWS IAM and Amazon VPC
 
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand AWS Identity and Access Management (IAM).
+* Learn how to manage users, groups, roles, and policies.
+* Understand authentication, authorization, and the Principle of Least Privilege.
+* Learn the fundamentals of Amazon Virtual Private Cloud (VPC).
+* Understand basic AWS networking concepts.
+* Practice creating and configuring basic AWS security and networking resources.
+
+---
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 1 | - Learn AWS IAM fundamentals <br> - Understand IAM Users, Groups, Roles, and Policies <br> - Learn authentication and authorization concepts | 05/11/2026 | 05/11/2026 | <https://docs.aws.amazon.com/iam/> |
+| 2 | - Create IAM Users and Groups <br> - Configure IAM Policies <br> - Learn AWS Managed Policies and Customer Managed Policies | 05/12/2026 | 05/12/2026 | <https://docs.aws.amazon.com/iam/latest/userguide/> |
+| 3 | - Learn IAM Roles <br> - Understand temporary credentials <br> - Study the Principle of Least Privilege <br> - Practice assigning permissions to AWS resources | 05/13/2026 | 05/13/2026 | <https://docs.aws.amazon.com/iam/latest/UserGuide/id_roles.html> |
+| 4 | - Learn Amazon VPC fundamentals <br> - Study CIDR, Subnets, Route Tables, and Internet Gateway <br> - Understand Public and Private Subnets | 05/14/2026 | 05/14/2026 | <https://docs.aws.amazon.com/vpc/> |
+| 5 | - **Practice:** <br>&emsp; + Create a VPC <br>&emsp; + Create Public and Private Subnets <br>&emsp; + Configure Route Tables <br>&emsp; + Configure Security Groups <br>&emsp; + Test network connectivity | 05/15/2026 | 05/15/2026 | <https://cloudjourney.awsstudygroup.com/> |
+
+---
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Gained a better understanding of AWS Identity and Access Management (IAM).
 
-* Successfully created and configured an AWS Free Tier account.
+* Learned the roles of:
+  * IAM Users
+  * IAM Groups
+  * IAM Roles
+  * IAM Policies
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Practiced creating IAM Users and Groups.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Learned how to assign and manage permissions using IAM Policies.
 
-* Used AWS CLI to perform basic operations such as:
+* Understood authentication and authorization mechanisms.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Learned the Principle of Least Privilege and its importance in cloud security.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Gained knowledge about IAM Roles and temporary credentials.
+
+* Studied the fundamentals of Amazon VPC.
+
+* Learned important AWS networking concepts:
+  * VPC
+  * CIDR
+  * Public Subnet
+  * Private Subnet
+  * Route Table
+  * Internet Gateway
+  * Security Group
+
+* Successfully practiced creating and configuring a basic VPC environment.
+
+* Improved practical knowledge of AWS security and networking.

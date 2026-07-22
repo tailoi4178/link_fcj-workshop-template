@@ -1,126 +1,155 @@
 ---
 title: "Event 2"
-date: 2024-01-01
-weight: 1
+date: 2026-06-13
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Event Report – June 13, 2026
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+* Share real-world experience about the roles of **Data Analytics Engineer** and **DevOps Engineer**
+* Help students understand the essential **skills, mindset, and recruitment process** in multinational companies
+* Introduce career development opportunities in **Cloud, AI, and AWS**
+* Provide insights into designing **scalable systems** on AWS
+* Share practical experiences from engineers working in the technology industry
 
-### Speakers
+### List of Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+* **Mr. Dat Pham** - Data Analytics Engineer
+* **Mr. Cường Nguyễn** - Process Engineer
+* **Trọng H. Trương** - DevOps Engineer @ Endava Vietnam
+* **Danh Hoàng Hiếu Nghị** - AI Engineer, AWS Community Builder, AWS Student Builder Group Leader
+* **Đinh Trung Kiên** - Speaker, *A Scalable URL Shortening Service on AWS*
+* **Nguyễn Minh Thọ** - Speaker, *A Scalable URL Shortening Service on AWS*
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### What Does a Data Analytics Engineer Really Do?
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+* The role of a **Data Analytics Engineer** depends on the **business domain, business model, and supporting departments**
+* **Kamereo**: Build reports and dashboards, analyze operational metrics, and perform root cause analysis
+* **Colgate-Palmolive**: Work with machine, operational, and IoT data to optimize production costs and support digital transformation
+* Collaborate with multiple departments through **cross-functional collaboration** to solve real-world business problems
 
-#### Transitioning to modern application architecture – Microservices
+#### Essential Skills
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+* **Critical Thinking**: Analyze information objectively and make accurate judgments
+* **Communication Skills**: Clearly communicate ideas and analytical results to different audiences
+* **Data Storytelling**: Transform raw data into meaningful insights that support decision-making
+* **Problem Solving**: Identify challenges and find optimal solutions based on data
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Corporate Culture and Recruitment Process in MNCs
 
-#### Domain-Driven Design (DDD)
+* **Screening & Initial Interview**: Resume screening and an initial conversation with a Recruiter
+* **Ability Test**: Logic, algorithm, or situation-based tests depending on the position
+* **Technical Interview**: Technical interviews with a Tech Lead or Manager
+* **Culture Fit**: Evaluate whether candidates are aligned with the company's culture and core values
+* **STAR Model**: Use Situation, Task, Action, and Result to present real-world experiences and problem-solving approaches
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### What Does a DevOps Engineer Really Do?
 
-#### Event-Driven Architecture
+* **Understanding over Copying**: Do not simply copy commands; understand how and why they work
+* **Problem Ownership**: Identify the real owner or responsible component of a problem
+* **Why before How**: Understand the root cause before deciding how to solve the problem
+* **Communication**: Communication and collaboration are important parts of DevOps work
+* **DevOps is not about being a hero**: The goal is to build reliable systems and reduce incidents rather than solving every problem manually
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+#### What Should You Learn First for DevOps?
 
-#### Compute Evolution
+* **Fundamentals**: Linux, Networking, and Programming
+* **Git & CI/CD**: Source code management and development automation
+* **Containers**: Understand how applications run and are deployed using Docker
+* **Application Lifecycle**: Build, Test, Deploy, Logs, Configuration, and Environment Variables
+* **Practice**: Build small projects, deploy applications, monitor systems, create failures, and practice troubleshooting
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+#### From First Cloud AI Journey to AWS Partner
 
-#### Amazon Q Developer
+* **Getting the job is just a beginning**: The first job is only the starting point of a long career journey
+* Possible career paths include **Software Engineer, DevOps Engineer, Platform Engineer, Solutions Architect, and AI Engineer**
+* Build your own **Personal Journey** through continuous learning and real-world projects
+* Combine **Cloud and AI** knowledge to expand future career opportunities
+* Join communities such as **AWS Community Builder** and **AWS Student Builder Group** to learn, connect, and grow
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+#### A Scalable URL Shortening Service on AWS
 
-### Key Takeaways
+* Learn how to design and build a **URL Shortening Service** on AWS
+* Design systems with **Scalability** to handle a large number of requests
+* Consider important factors such as **Reliability, Security, Performance, and Cost Optimization**
+* Understand how to design Cloud systems that are not only functional but also scalable and reliable
 
-#### Design Mindset
+### What I Learned
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+#### Professional Mindset
 
-#### Technical Architecture
+* **Continuous Learning**: Continuously learn and keep up with new technologies
+* **Problem Solving**: Focus on understanding and solving real-world problems
+* **Communication**: Communication skills are as important as technical knowledge
+* **Personal Growth**: The first job is only the beginning of a long-term career journey
+* **Adaptability**: Adapt to changes in technology and the job market
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+#### Architecture and Technology
 
-#### Modernization Strategy
+* Gain a better understanding of the real-world responsibilities of **Data Analytics Engineers** and **DevOps Engineers**
+* Understand the fundamental DevOps skills: **Linux, Networking, Git, CI/CD, and Containers**
+* Understand the importance of **Logging and Monitoring** in system operations
+* Learn how to approach system design with **Scalability** in mind on AWS
+* Understand the importance of **Reliability, Security, Performance, and Cost Optimization**
+* Understand the **Application Lifecycle** from **Build → Test → Deploy → Monitor**
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+#### Career Development
 
-### Applying to Work
+* Continue improving my **Backend Development** skills
+* Strengthen my knowledge of **AWS and Cloud Computing**
+* Learn more about **DevOps and CI/CD**
+* Practice building **Real-world Projects** to gain practical experience
+* Explore the combination of **Cloud and AI**
+* Build a strong foundation for future roles such as **Backend Developer, Cloud Engineer, or DevOps Engineer**
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+### Application to My Work
+
+* **Apply Scalable Architecture**: Apply scalable system design principles to my **Online Bus Booking System** project
+* **Implement CI/CD**: Automate the build and deployment process
+* **Improve Logging & Monitoring**: Use AWS services such as CloudWatch to monitor the system
+* **Apply Security Best Practices**: Improve security and access control using IAM, Cognito, and APIs
+* **Optimize Cost**: Reduce infrastructure costs by using Serverless architecture and the **Pay-as-you-go** model
+* **Practice DevOps Fundamentals**: Apply Git, CI/CD, Docker, and Cloud Deployment practices
+* **Improve System Reliability**: Design the system to achieve better reliability and reduce operational incidents
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Participating in the event on **June 13, 2026** was a valuable experience that gave me a more practical understanding of career opportunities and professional development in the IT industry.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Learning from Experienced Speakers
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+* The speakers shared valuable **Real-world Experiences** from their careers in enterprises and technology companies.
+* Through examples of the **Data Analytics Engineer** role, I gained a better understanding of how data is used to analyze operations, optimize business performance, and support **Data-driven Decision Making**.
+* The **DevOps** presentation helped me better understand the actual responsibilities of DevOps Engineers and the fundamental knowledge required for this career path.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### Practical Technical Experience
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+* Learned how to approach system design from the perspectives of **Scalability, Reliability, and Security**.
+* Gained a better understanding of application development and operations using **Git, CI/CD, Containers, Logging, and Monitoring**.
+* Learned about designing a **Scalable URL Shortening Service on AWS** and the key factors to consider when building a **Cloud Architecture**.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### Cloud and AI Career Direction
 
-#### Some event photos
-*Add your event photos here*  
+* The presentation **From First Cloud AI Journey to AWS Partner** motivated me to continue developing my skills in **Cloud and AI**.
+* I realized that building **Real-world Projects** and continuously learning are essential for long-term career development.
+* I gained a broader perspective on career opportunities such as **Software Engineer, DevOps Engineer, Platform Engineer, and Solutions Architect**.
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+#### Key Takeaways
+
+* Do not simply learn how to use tools; understand the **principles and reasons** behind the technology and the problems being solved.
+* Fundamental knowledge of **Linux, Networking, Git, CI/CD, and Cloud** is important for those pursuing Backend and DevOps careers.
+* When designing Cloud systems, it is important to consider **Scalability, Reliability, Security, Performance, and Cost Optimization**.
+* Learning should always be combined with **Hands-on Practice** and building **Real-world Projects** to improve technical skills and gain practical experience.
+* **Continuous Learning** and **Adaptability** are essential for long-term growth in the IT industry.
+
+#### Photos from the Event
+
+![Event1306](/images/event1306.png)
+
+> Overall, the event on June 13, 2026, provided not only valuable technical knowledge but also a better understanding of the real-world IT working environment, career development, and the skills required for the future. In particular, the topics of **DevOps, Cloud, and Scalable System Design on AWS** can be directly applied to my **Online Bus Booking System** project. This experience has given me clearer direction for developing my career in **Backend Development and Cloud Computing**.

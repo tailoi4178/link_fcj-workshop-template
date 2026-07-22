@@ -1,57 +1,68 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-25
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+# Week 4 - Amazon S3 and Amazon RDS
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand AWS cloud storage concepts with Amazon S3.
+* Learn how to create and manage S3 Buckets and Objects.
+* Understand S3 storage classes and basic access control.
+* Practice hosting a static website using Amazon S3.
+* Learn the fundamentals of Amazon RDS and managed relational databases.
+* Practice creating and managing a relational database on AWS.
+
+---
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 1 | - Learn Amazon S3 fundamentals <br> - Understand Buckets and Objects <br> - Learn S3 Storage Classes <br> - Study S3 data durability and availability | 05/25/2026 | 05/25/2026 | <https://docs.aws.amazon.com/s3/> |
+| 2 | - Create and configure an S3 Bucket <br> - Upload, download, and manage Objects <br> - Learn S3 Bucket Policies and Access Control | 05/26/2026 | 05/26/2026 | <https://docs.aws.amazon.com/s3/latest/userguide/> |
+| 3 | - Practice hosting a static website on Amazon S3 <br> - Configure static website hosting <br> - Learn basic public access configuration | 05/27/2026 | 05/27/2026 | <https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html> |
+| 4 | - Learn Amazon RDS fundamentals <br> - Understand managed relational databases <br> - Study DB Instances, DB Engines, and Multi-AZ | 05/28/2026 | 05/28/2026 | <https://docs.aws.amazon.com/rds/> |
+| 5 | - **Practice:** <br>&emsp; + Create an Amazon RDS database <br>&emsp; + Configure database security <br>&emsp; + Connect to the database <br>&emsp; + Test database operations <br>&emsp; + Delete unused resources | 05/29/2026 | 05/29/2026 | <https://aws.amazon.com/rds/> |
+
+---
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Understood the fundamentals of Amazon S3 as an object storage service.
 
-* Successfully created and configured an AWS Free Tier account.
+* Learned the main concepts of S3:
+  * Bucket
+  * Object
+  * Storage Class
+  * Bucket Policy
+  * Access Control
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully created and configured S3 Buckets.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Practiced uploading, downloading, and managing objects in Amazon S3.
 
-* Used AWS CLI to perform basic operations such as:
+* Learned how to configure Amazon S3 for static website hosting.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Successfully practiced deploying a basic static website using Amazon S3.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Gained an understanding of Amazon RDS as a managed relational database service.
+
+* Learned important RDS concepts:
+  * DB Instance
+  * Database Engine
+  * Multi-AZ
+  * Automated Backup
+  * Security Group
+
+* Successfully created and configured an Amazon RDS database.
+
+* Practiced connecting to the RDS database and performing basic database operations.
+
+* Learned the importance of securing database resources and removing unused AWS resources to avoid unnecessary costs.
+
+* Improved practical knowledge of AWS Storage and Database services.

@@ -6,121 +6,82 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Event Report – May 30, 2026
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
-
-### Speakers
-
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+* Help students learn more about **AWS Services** through interactive activities
+* Share experiences about participating in **Hackathons** and improving English skills
+* Provide useful methods to improve **Time Management** and reduce **Procrastination**
+* Encourage students to actively participate in technology events and practical activities
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Learning AWS Through an Interactive Game
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+* A speaker introduced an interactive game that helped participants learn and review different **AWS Services** in a fun and engaging way.
+* The game included a **Leaderboard** system, which created a competitive environment and encouraged participants to actively participate.
+* Through this activity, I had the opportunity to review and learn more about AWS services in a more interactive way.
 
-#### Transitioning to modern application architecture – Microservices
+#### Sharing Hackathon Experience
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+* A group of students from **FPT University** shared their experience preparing for and participating in a **Hackathon**.
+* The presentation emphasized the importance of **English Skills, Communication, and Teamwork** when participating in technology competitions.
+* Students were encouraged to actively join Hackathons and other technology competitions to gain practical experience and develop their skills.
+* The experience also showed that English is important for understanding technical materials, communicating with teammates, and presenting ideas effectively.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### How to Avoid Procrastination at Work
 
-#### Domain-Driven Design (DDD)
+* The speaker shared useful methods to improve **Time Management** and reduce **Procrastination**.
+* Set clear goals and break large tasks into smaller and more manageable activities.
+* Prioritize important tasks and start working instead of continuously delaying them.
+* Build discipline and maintain effective working habits.
+* Focus on completing tasks step by step to improve productivity and work efficiency.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+### What I Learned
 
-#### Event-Driven Architecture
+* Gained more knowledge and a fun learning experience about **AWS Services** through an interactive game.
+* Realized the importance of **English, Teamwork, and Communication Skills** when participating in technology competitions such as Hackathons.
+* Understood that participating in competitions and practical activities can help students improve their skills and gain valuable experience.
+* Learned the importance of **Time Management** and how to reduce **Procrastination** in both studying and working.
+* Became more motivated to actively participate in technology events and practical projects.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+### Application to My Work
 
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+* Continue learning and practicing **AWS Services** through real-world projects.
+* Improve my **English Communication Skills** to better understand technical documentation and communicate about technology.
+* Actively participate in **Hackathons** and technology events to gain practical experience.
+* Apply **Time Management** techniques by breaking large tasks into smaller activities.
+* Set priorities and create a clear schedule to complete projects on time.
+* Maintain discipline and avoid procrastination during the development process.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Participating in the event on **May 30, 2026** was a valuable and interesting experience that provided me with useful knowledge and practical lessons.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Learning Through Interactive Activities
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+The AWS interactive game was one of the most interesting parts of the event. It helped participants learn about **AWS Services** in a more engaging and memorable way. The **Leaderboard** also created a sense of competition and encouraged everyone to actively participate.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### Learning from Hackathon Experiences
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+The presentation from the **FPT University** students gave me a better understanding of the importance of **English, Teamwork, and Communication Skills** in technology competitions. Their experience motivated me to improve my English and consider participating in future Hackathons and technology competitions.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### Improving Productivity
 
-#### Some event photos
-*Add your event photos here*  
+The session about avoiding **Procrastination** helped me understand that effective time management and discipline are important for completing tasks successfully. Breaking large tasks into smaller steps and starting immediately can help reduce delays and improve productivity.
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+#### Key Takeaways
+
+* Learn technology through **Interactive Learning** and practical activities.
+* Improve **English Communication Skills** to support future learning and career development.
+* Participate in **Hackathons and Technology Competitions** to gain real-world experience.
+* Practice **Time Management** and avoid **Procrastination**.
+* Develop discipline and maintain consistent working habits.
+
+#### Photos from the Event
+
+![Event3005](/images/event3005.png)
+![Event3005](/images/event30052.png)
+
+> Overall, the event on May 30, 2026, provided me with valuable knowledge about **AWS**, the importance of **English and Teamwork**, and useful methods for improving **Time Management** and reducing **Procrastination**. The event also motivated me to participate more actively in technology communities, Hackathons, and practical projects to improve my technical and professional skills.

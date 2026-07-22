@@ -1,59 +1,64 @@
 ---
 title: "Worklog Tuần 9"
-date: 2024-01-01
-weight: 1
+date: 2026-06-29
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+# Tuần 9 - Data Lake và Phân tích dữ liệu trên AWS
 
 ### Mục tiêu tuần 9:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu kiến thức cơ bản về Data Analytics trên AWS.
+* Tìm hiểu khái niệm và kiến trúc Data Lake.
+* Hiểu cách Amazon S3 được sử dụng làm lớp lưu trữ dữ liệu.
+* Tìm hiểu kiến thức cơ bản về AWS Glue và Data Catalog.
+* Sử dụng Amazon Athena để truy vấn dữ liệu được lưu trữ trên Amazon S3.
+* Khám phá Amazon QuickSight để trực quan hóa dữ liệu.
+* Hiểu quy trình xử lý và phân tích dữ liệu cơ bản trên AWS.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+---
 
+### Công việc thực hiện trong tuần:
 
-### Kết quả đạt được tuần 9:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Tìm hiểu kiến thức cơ bản về Data Lake <br> - Tìm hiểu dữ liệu có cấu trúc và không có cấu trúc <br> - Tìm hiểu vai trò của Amazon S3 trong kiến trúc Data Lake | 29/06/2026 | 29/06/2026 | <https://docs.aws.amazon.com/s3/> |
+| 2 | - Tìm hiểu kiến thức cơ bản về AWS Glue <br> - Tìm hiểu Data Catalog và Crawler <br> - Khám phá khái niệm ETL cơ bản | 30/06/2026 | 30/06/2026 | <https://docs.aws.amazon.com/glue/> |
+| 3 | - Tìm hiểu Amazon Athena <br> - Tìm hiểu Serverless SQL Query Service <br> - Thực hành truy vấn dữ liệu lưu trữ trên Amazon S3 | 01/07/2026 | 01/07/2026 | <https://docs.aws.amazon.com/athena/> |
+| 4 | - Tìm hiểu kiến thức cơ bản về Amazon QuickSight <br> - Tìm hiểu Dashboard và Visualization <br> - Khám phá quy trình trực quan hóa dữ liệu | 02/07/2026 | 02/07/2026 | <https://docs.aws.amazon.com/quicksight/> |
+| 5 | - **Thực hành:** <br>&emsp; + Upload dữ liệu mẫu lên S3 <br>&emsp; + Tạo Glue Data Catalog <br>&emsp; + Truy vấn dữ liệu bằng Athena <br>&emsp; + Tạo biểu đồ trực quan hóa cơ bản <br>&emsp; + Tổng kết quy trình Data Analytics <br>&emsp; + Dọn dẹp tài nguyên | 03/07/2026 | 03/07/2026 | <https://aws.amazon.com/big-data/datalakes-and-analytics/> |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+---
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Kết quả đạt được trong tuần 9:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hiểu được kiến thức cơ bản về kiến trúc Data Lake.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Hiểu cách Amazon S3 có thể được sử dụng làm lớp lưu trữ dữ liệu có khả năng mở rộng cho các hệ thống phân tích.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Phân biệt được dữ liệu có cấu trúc và dữ liệu không có cấu trúc.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Hiểu vai trò cơ bản của AWS Glue trong việc khám phá và lập danh mục dữ liệu.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Tìm hiểu các thành phần:
+  * AWS Glue Data Catalog
+  * Crawler
+  * ETL
 
+* Hiểu cách Amazon Athena cung cấp khả năng truy vấn SQL Serverless đối với dữ liệu lưu trữ trên Amazon S3.
 
+* Thực hành truy vấn các tập dữ liệu mẫu bằng SQL.
+
+* Khám phá Amazon QuickSight và khả năng trực quan hóa dữ liệu.
+
+* Thực hành tạo Dashboard và biểu đồ dữ liệu cơ bản.
+
+* Hiểu quy trình phân tích dữ liệu tổng quát:
+  * Data Storage
+  * Data Cataloging
+  * Data Querying
+  * Data Visualization
+
+* Cải thiện kiến thức về các dịch vụ Data và Analytics trên AWS.

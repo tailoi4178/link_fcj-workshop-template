@@ -1,59 +1,67 @@
 ---
 title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+date: 2026-06-22
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+# Tuần 8 - Container với Docker, Amazon ECS và AWS Fargate
 
 ### Mục tiêu tuần 8:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu kiến thức cơ bản về Containerization.
+* Học các khái niệm và lệnh cơ bản của Docker.
+* Tìm hiểu Docker Image và Docker Container.
+* Tìm hiểu kiến trúc Amazon Elastic Container Service (ECS).
+* Hiểu ECS Cluster, Task Definition, Task và Service.
+* Tìm hiểu cách AWS Fargate chạy Container mà không cần quản lý EC2 Server.
+* Thực hành Build và Deploy ứng dụng sử dụng Container.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+---
 
+### Công việc thực hiện trong tuần:
 
-### Kết quả đạt được tuần 8:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Tìm hiểu kiến thức cơ bản về Containerization <br> - So sánh Container và Virtual Machine <br> - Tìm hiểu Docker Image và Container | 22/06/2026 | 22/06/2026 | <https://docs.docker.com/> |
+| 2 | - Tìm hiểu các lệnh Docker cơ bản <br> - Tạo Dockerfile <br> - Build Docker Image <br> - Chạy và quản lý Docker Container | 23/06/2026 | 23/06/2026 | <https://docs.docker.com/get-started/> |
+| 3 | - Tìm hiểu kiến thức cơ bản về Amazon ECS <br> - Tìm hiểu ECS Cluster, Task Definition, Task và Service <br> - Khám phá Networking trong ECS | 24/06/2026 | 24/06/2026 | <https://docs.aws.amazon.com/ecs/> |
+| 4 | - Tìm hiểu AWS Fargate <br> - Tìm hiểu Serverless Container Execution <br> - Tìm hiểu triển khai ECS Service và Task | 25/06/2026 | 25/06/2026 | <https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html> |
+| 5 | - **Thực hành:** <br>&emsp; + Tạo Dockerfile <br>&emsp; + Build Docker Image <br>&emsp; + Chạy ứng dụng trên Local <br>&emsp; + Deploy Container bằng ECS/Fargate <br>&emsp; + Kiểm tra ứng dụng <br>&emsp; + Dọn dẹp tài nguyên | 26/06/2026 | 26/06/2026 | <https://aws.amazon.com/ecs/> |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+---
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Kết quả đạt được trong tuần 8:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hiểu được các khái niệm cơ bản về Containerization.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Hiểu sự khác biệt giữa Container và Virtual Machine.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Tìm hiểu các khái niệm chính của Docker:
+  * Dockerfile
+  * Docker Image
+  * Docker Container
+  * Docker Registry
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Thực hành viết Dockerfile cho một ứng dụng.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Build và chạy thành công Docker Image trên máy Local.
 
+* Tìm hiểu kiến trúc và các thành phần của Amazon ECS.
 
+* Hiểu các khái niệm:
+  * ECS Cluster
+  * Task Definition
+  * Task
+  * Service
+
+* Tìm hiểu cách AWS Fargate cung cấp môi trường chạy Container theo mô hình Serverless.
+
+* Thực hành triển khai ứng dụng Container bằng ECS và Fargate.
+
+* Kiểm tra ứng dụng sau khi triển khai và theo dõi vòng đời của Container.
+
+* Cải thiện kiến thức về Containerization và triển khai ứng dụng Cloud hiện đại.
+
+* Có thêm kinh nghiệm thực hành với Docker và các dịch vụ Container trên AWS.

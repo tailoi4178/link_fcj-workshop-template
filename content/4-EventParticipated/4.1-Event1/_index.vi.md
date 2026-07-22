@@ -6,120 +6,60 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch sự kiện ngày 30/05/2026
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Chia sẻ best practices trong thiết kế ứng dụng hiện# Bài thu hoạch sự kiện ngày 30/05/2026
 
-### Danh Sách Diễn Giả
+### Mục Đích Của Sự Kiện
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+* Giúp sinh viên tìm hiểu thêm về các dịch vụ và công nghệ của **AWS**
+* Chia sẻ kinh nghiệm tham gia các cuộc thi **Hackathon** và phát triển kỹ năng tiếng Anh
+* Cung cấp các phương pháp giúp cải thiện khả năng làm việc và hạn chế **procrastination (trì hoãn)**
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### Tìm hiểu AWS thông qua trò chơi
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+* Tham gia một trò chơi tương tác giúp người tham dự tìm hiểu và ghi nhớ các **AWS Services** một cách trực quan và thú vị.
+* Trò chơi có hệ thống **Leaderboard (bảng xếp hạng)** giúp tăng tính cạnh tranh và tạo động lực cho người tham gia.
+* Qua hoạt động này, tôi có cơ hội ôn lại và tìm hiểu thêm về các dịch vụ AWS.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### Chia sẻ kinh nghiệm tham gia Hackathon
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+* Một nhóm sinh viên đến từ **FPT University** chia sẻ về quá trình chuẩn bị và tham gia cuộc thi **Hackathon**.
+* Nhấn mạnh tầm quan trọng của **English Skills**, khả năng giao tiếp và làm việc nhóm trong các cuộc thi công nghệ.
+* Khuyến khích sinh viên chủ động tham gia các cuộc thi để nâng cao kinh nghiệm và phát triển bản thân.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### Cách hạn chế trì hoãn trong công việc
 
-#### Domain-Driven Design (DDD)
-
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
-
-#### Event-Driven Architecture
-
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+* Chia sẻ các phương pháp giúp cải thiện **Time Management** và hạn chế **Procrastination**.
+* Xác định rõ mục tiêu và chia nhỏ công việc thành những nhiệm vụ cụ thể.
+* Ưu tiên các công việc quan trọng và bắt đầu thực hiện thay vì trì hoãn.
+* Duy trì tính kỷ luật và xây dựng thói quen làm việc hiệu quả.
 
 ### Những Gì Học Được
 
-#### Tư Duy Thiết Kế
-
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+* Có thêm kiến thức và trải nghiệm thú vị về các **AWS Services** thông qua hình thức học tập bằng trò chơi.
+* Nhận ra tầm quan trọng của **English, Teamwork và Communication Skills** khi tham gia các cuộc thi công nghệ như Hackathon.
+* Hiểu rằng việc tham gia các cuộc thi và hoạt động thực tế giúp sinh viên nâng cao kỹ năng và kinh nghiệm.
+* Học được cách quản lý thời gian và hạn chế **Procrastination** để làm việc hiệu quả hơn.
 
 ### Ứng Dụng Vào Công Việc
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+* Tiếp tục tìm hiểu và thực hành các **AWS Services** thông qua các dự án thực tế.
+* Cải thiện kỹ năng **English Communication** để có thể đọc tài liệu và trao đổi về công nghệ tốt hơn.
+* Chủ động tham gia các **Hackathon** và hoạt động công nghệ để tích lũy kinh nghiệm.
+* Áp dụng phương pháp **Time Management** và chia nhỏ công việc để hoàn thành dự án đúng tiến độ.
 
 ### Trải nghiệm trong event
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+Sự kiện ngày **30/05/2026** mang lại cho tôi nhiều trải nghiệm thú vị và kiến thức bổ ích. Đặc biệt, hoạt động trò chơi về **AWS Services** giúp việc học kiến thức Cloud trở nên trực quan và dễ nhớ hơn. Bên cạnh đó, phần chia sẻ của nhóm sinh viên **FPT University** giúp tôi có thêm động lực để cải thiện tiếng Anh và tham gia các cuộc thi **Hackathon**. Cuối cùng, những chia sẻ về cách hạn chế trì hoãn giúp tôi nhận ra tầm quan trọng của việc quản lý thời gian và duy trì tính kỷ luật trong quá trình học tập và làm việc.
 
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+
+![Event3005](/images/event3005.png)
+![Event3005](/images/event30052.png)
+
+> Tổng thể, sự kiện giúp tôi có thêm kiến thức về AWS, nâng cao nhận thức về tầm quan trọng của tiếng Anh và kỹ năng làm việc nhóm, đồng thời học được những phương pháp hữu ích để quản lý thời gian và hoàn thành công việc hiệu quả hơn.

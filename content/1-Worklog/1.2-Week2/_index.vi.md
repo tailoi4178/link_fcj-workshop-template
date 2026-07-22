@@ -1,59 +1,67 @@
 ---
 title: "Worklog Tuần 2"
-date: 2024-01-01
-weight: 1
+date: 2026-05-11
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+# Tuần 2 - AWS IAM và Amazon VPC
 
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu về AWS Identity and Access Management (IAM).
+* Học cách quản lý User, Group, Role và Policy.
+* Hiểu các khái niệm Authentication, Authorization và Principle of Least Privilege.
+* Tìm hiểu kiến thức nền tảng về Amazon Virtual Private Cloud (VPC).
+* Tìm hiểu các kiến thức cơ bản về AWS Networking.
+* Thực hành tạo và cấu hình các tài nguyên bảo mật và mạng cơ bản trên AWS.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+---
 
+### Công việc thực hiện trong tuần:
 
-### Kết quả đạt được tuần 2:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Tìm hiểu kiến thức cơ bản về AWS IAM <br> - Tìm hiểu IAM User, Group, Role và Policy <br> - Tìm hiểu khái niệm Authentication và Authorization | 11/05/2026 | 11/05/2026 | <https://docs.aws.amazon.com/iam/> |
+| 2 | - Tạo IAM User và Group <br> - Cấu hình IAM Policy <br> - Tìm hiểu AWS Managed Policy và Customer Managed Policy | 12/05/2026 | 12/05/2026 | <https://docs.aws.amazon.com/iam/latest/userguide/> |
+| 3 | - Tìm hiểu IAM Role <br> - Tìm hiểu Temporary Credentials <br> - Nghiên cứu nguyên tắc Principle of Least Privilege <br> - Thực hành phân quyền cho các tài nguyên AWS | 13/05/2026 | 13/05/2026 | <https://docs.aws.amazon.com/iam/latest/UserGuide/id_roles.html> |
+| 4 | - Tìm hiểu kiến thức cơ bản về Amazon VPC <br> - Tìm hiểu CIDR, Subnet, Route Table và Internet Gateway <br> - Phân biệt Public Subnet và Private Subnet | 14/05/2026 | 14/05/2026 | <https://docs.aws.amazon.com/vpc/> |
+| 5 | - **Thực hành:** <br>&emsp; + Tạo VPC <br>&emsp; + Tạo Public và Private Subnet <br>&emsp; + Cấu hình Route Table <br>&emsp; + Cấu hình Security Group <br>&emsp; + Kiểm tra kết nối mạng | 15/05/2026 | 15/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+---
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Kết quả đạt được trong tuần 2:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hiểu rõ hơn về AWS Identity and Access Management (IAM).
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Hiểu được vai trò của:
+  * IAM User
+  * IAM Group
+  * IAM Role
+  * IAM Policy
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Thực hành tạo và quản lý IAM User và Group.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Biết cách cấp và quản lý quyền truy cập thông qua IAM Policy.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hiểu các cơ chế Authentication và Authorization.
 
+* Hiểu nguyên tắc Principle of Least Privilege và tầm quan trọng của nguyên tắc này trong bảo mật Cloud.
 
+* Tìm hiểu IAM Role và Temporary Credentials.
+
+* Có kiến thức nền tảng về Amazon VPC.
+
+* Tìm hiểu các khái niệm AWS Networking quan trọng:
+  * VPC
+  * CIDR
+  * Public Subnet
+  * Private Subnet
+  * Route Table
+  * Internet Gateway
+  * Security Group
+
+* Thực hành tạo và cấu hình thành công một môi trường VPC cơ bản.
+
+* Cải thiện kiến thức thực tế về bảo mật và Networking trên nền tảng AWS.

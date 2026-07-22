@@ -1,57 +1,67 @@
 ---
 title: "Week 3 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-18
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+# Week 3 - Amazon EC2 and Compute Services
 
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand the fundamentals of cloud computing with Amazon EC2.
+* Learn how to launch, configure, and manage EC2 instances.
+* Understand Amazon Machine Images (AMI), instance types, and Amazon EBS.
+* Learn how Security Groups control network traffic to EC2 instances.
+* Practice connecting to EC2 instances using SSH.
+* Learn how to manage the lifecycle of EC2 resources and optimize resource usage.
+
+---
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 1 | - Learn Amazon EC2 fundamentals <br> - Understand EC2 instance types and pricing models <br> - Study Amazon Machine Images (AMI) | 05/18/2026 | 05/18/2026 | <https://docs.aws.amazon.com/ec2/> |
+| 2 | - Learn about Amazon EBS <br> - Understand EBS Volume Types <br> - Learn how to attach and detach EBS volumes <br> - Study EBS snapshots | 05/19/2026 | 05/19/2026 | <https://docs.aws.amazon.com/ebs/> |
+| 3 | - Learn EC2 Security Groups <br> - Configure inbound and outbound rules <br> - Study SSH access and key pairs <br> - Learn about Elastic IP | 05/20/2026 | 05/20/2026 | <https://docs.aws.amazon.com/ec2/latest/userguide/authorizing-access-to-an-instance.html> |
+| 4 | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Configure Security Group <br>&emsp; + Create and use a Key Pair <br>&emsp; + Connect to EC2 using SSH | 05/21/2026 | 05/21/2026 | <https://docs.aws.amazon.com/ec2/> |
+| 5 | - Practice managing EC2 resources <br> - Attach an EBS volume <br> - Create an EBS snapshot <br> - Stop, start, and terminate EC2 instances <br> - Review EC2 resource costs and usage | 05/22/2026 | 05/22/2026 | <https://aws.amazon.com/ec2/> |
+
+---
 
 ### Week 3 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Gained a better understanding of Amazon EC2 and cloud-based computing resources.
 
-* Successfully created and configured an AWS Free Tier account.
+* Learned the main concepts of Amazon EC2, including:
+  * EC2 Instances
+  * Instance Types
+  * AMI
+  * EBS
+  * Security Groups
+  * Key Pairs
+  * Elastic IP
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Learned how to select appropriate EC2 instance types based on computing requirements.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Successfully launched and configured an EC2 instance.
 
-* Used AWS CLI to perform basic operations such as:
+* Configured Security Group rules to control inbound and outbound network traffic.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Successfully created and used an EC2 Key Pair.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Connected to an EC2 instance using SSH.
+
+* Practiced creating, attaching, and detaching EBS volumes.
+
+* Learned how to create EBS snapshots for data backup.
+
+* Practiced managing the EC2 lifecycle:
+  * Start
+  * Stop
+  * Restart
+  * Terminate
+
+* Improved practical knowledge of AWS Compute services and basic cloud infrastructure management.
